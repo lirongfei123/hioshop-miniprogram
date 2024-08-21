@@ -105,9 +105,9 @@
     </view>
     <view class="company">
         <view class="c-wrap" bindtap="getOrderInfo">
-            <view class="text">海风小店</view>
+            <view class="text">正轩家电</view>
             <view class="line"></view>
         </view>
-        <view class="tip">开源微信小程序商城</view>
+        <view class="tip">新郑市华商汇5号楼F3-A8076-1</view>
     </view>
 </view>

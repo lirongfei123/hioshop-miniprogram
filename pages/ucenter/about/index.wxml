@@ -1,15 +1,15 @@
 <view class="container">
   <view class='about-wrap'>
-    <view class='title'>海风小店</view>
+    <view class='title'>正选家具</view>
     <view class='content'>
-      开源微信小程序商城
+      新郑市华商汇5号楼F3-A8076-1
     </view>
     <view class="img-wrap">
-      <image mode="aspectFill" class="code-img" src="https://www.qile.club/qrcode.jpg" show-menu-by-longpress="{{true}}"></image>
+      <image mode="aspectFill" class="code-img" src="https://cdnpublic.oss-cn-beijing.aliyuncs.com/WechatIMG60.jpg" show-menu-by-longpress="{{true}}"></image>
     </view>
-    <view class='content'>
+    <!-- <view class='content'>
       更多信息访问：qile.club
-    </view>
+    </view> -->
   </view>
-  <ad unit-id="adunit-1776b4f8f2217197" ad-type="video" ad-theme="white"></ad>
+  <!-- <ad unit-id="adunit-1776b4f8f2217197" ad-type="video" ad-theme="white"></ad> -->
 </view>

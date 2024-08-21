@@ -53,20 +53,28 @@ page {
     border-top: 1px solid #fafafa;
     /* position: fixed; */
     margin-top: 90rpx;
+    overflow: hidden;
 }
 
 .catalog .nav {
-    width: 162rpx;
+    width: 180rpx;
     height: 100%;
+    box-sizing: border-box;
+    padding-bottom: 100rpx;
+}
+.catalog .nav ::-webkit-scrollbar {
+  display: none;
 }
 
 .catalog .nav .item {
     text-align: center;
     line-height: 90rpx;
-    width: 162rpx;
+    width: 180rpx;
     height: 90rpx;
     color: #333;
     font-size: 28rpx;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .catalog .nav .item.active {
@@ -78,7 +86,7 @@ page {
 .catalog .cate {
     flex: 1;
     height: 100%;
-    padding: 0 24rpx 0 30rpx;
+    padding: 0 1rpx 0 15rpx;
 }
 
 .catalog .cate .show-more {
@@ -229,7 +237,7 @@ page {
 }
 
 .list-wrap .goods-box {
-    width: 256rpx;
+    width: 262rpx;
     /* height: 330rpx; */
     float: left;
     margin: 0 20rpx 20rpx 0;
@@ -246,15 +254,15 @@ page {
 }
 
 .goods-box .navi-url .image {
-    width: 256rpx;
-    height: 256rpx;
+    width: 262rpx;
+    height: 262rpx;
     border-radius: 8rpx;
     background: #f9f9f9
 }
 
 .goods-box .navi-url .box {
-    height: 256rpx;
-    width: 256rpx;
+    height: 262rpx;
+    width: 262rpx;
     position: relative;
     margin-bottom: 10rpx;
 }
@@ -372,8 +380,8 @@ page {
     position: absolute;
     left: 0;
     top: 0;
-    width: 256rpx;
-    height: 256rpx;
+    width: 262rpx;
+    height: 262rpx;
     background: #000;
     opacity: 0.3;
 }
@@ -382,8 +390,8 @@ page {
     position: absolute;
     left: 0;
     top: 0;
-    width: 256rpx;
-    height: 256rpx;
+    width: 262rpx;
+    height: 262rpx;
     display: flex;
     justify-content: center;
     align-items: center;

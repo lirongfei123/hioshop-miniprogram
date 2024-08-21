@@ -62,8 +62,10 @@ Page({
   goAuth() {
     let code = '';
     let that = this;
+    
     wx.login({
       success: (res) => {
+        
         code = res.code;
         that.postLogin(code)
       },
